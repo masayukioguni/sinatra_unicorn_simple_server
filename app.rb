@@ -1,5 +1,5 @@
 require 'sinatra'
 
 get '/hello' do
-  'Hello, World !'
+  "Hello, World #{ARGV[1]}" 
 end
